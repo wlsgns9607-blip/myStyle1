@@ -2,30 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="강아지" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mianpage</title>
+
+<!--  index.html 에 css/style.css 를 외부 연결하세요. 구글 폰트를 사용한다면 CSS 링크보다 위에 배치하세요 -->
+
+<link rel="stylesheet" href="css/index.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+
 </head>
 <body>
-   <header>
-        <h1>강아지(포메라니안)</h1>
-        <img src="https://i.namu.wiki/i/zCFKYNPaeHpXzQtXJL2c2bO9LSk31uGOcJtQKDH8ixG0Wqi66zy26MoSHc99hJwXqKEsd6JFLrZmUDN43laXwg.webp" 
-        alt="gan" with="150"    title="포메러나언">
-    </header>
-    <main>
-        <h2>특징</h2> 
-        <ul>
-            <li>성격이 <strong>활발</strong>하고 <mark>자신감</mark> 넘침</li>
-            <li>털이 <span><ins>풍성</ins></span>하고 <span><ins>귀여운</ins></span>외모</li>
-            <li>짖음이 많은 편</li>
-        </ul>
-        <em>정말 귀엽고 애교가 많아요!</em>
+
+        <header>
+            <h1>조진훈의 미니 홈페이지</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIaUbV78cNaJJB5K4fYdQEcxhrF8VolMSpg&s" 
+            alt="50">
+            <p>안녕하세요 저는 <strong>조진훈</strong>입니다
+                HTML을 배우고 있는 예비 개발자입니다 😊
+            </p>
+        </header>
+
+        <nav>
+         <h2>"📂 나의 작품 목록"</h2> 
+            <ul class="cho">
+                <li> <a href="animal.html"> 동물소개페이지</a> </li>
+                <li> <a href="book.html"> 나의 독서 페이지</a></li>
+                <li><a href="movie.html"> 영화 리뷰 페이지</a></li>
+                <li> <a href="recipe.html"> 나만의 레시피</a></li>
+                <li> <a href="timetable.html"> 우리 반 주간 시간표</a></li>
+                <li><a href="boxoffice.html"> 박스오피스 페이지</a></li>
+            </ul>
+    
+        </nav>
         <hr>
-        <h2>시는곳</h2>
-         전 세계 <strong>가정집</strong>에서 반려동물로 카워져요
-        <hr>
-        <h2>먹이</h2>
-       <span> 개껌,육표,사료</span>를 좋아해요
-    </main>
-   <footer> <p><small>작성자 : 조진훈 · 2026년</small></p></footer>
+
+      <main>
+          <section>
+                <h2>👋 자기소개</h2>
+                <p>대전에 살고 있고 방과후 HTML 수업을 듣고 있어요!</p>
+    
+          </section>
+            <section>
+     
+      
+        <ul >
+                    <li> <a href="animal.html"> 동물소개페이지</a> </li>
+                    <li> <a href="book.html"> 나의 독서 페이지</a></li>
+                    <li><a href="movie.html"> 영화 리뷰 페이지</a></li>
+                    <li> <a href="recipe.html"> 나만의 레시피</a></li>
+                    <li> <a href="timetable.html"> 우리 반 주간 시간표</a></li>
+                    <li><a href="boxoffice.html"> 박스오피스 페이지</a></li>
+                </ul>
+            <hr>
+    
+    
+                <h2> 💬 방문자 메모</h2>
+                <form>
+                    <label for=""> 이름</label><br>
+                    <input type="text"  placeholder="이름을 입력하세요" > <br>
+                    <label for=""> 방문경로</label> <br>
+                    <select>
+                        <option value=""> 직접방문</option>
+                        <option value="">검색 </option>
+                        <option value=""> 추천 </option>
+                    </select> <br>
+                    <label for=""> 메모</label> <br>
+                   <textarea name="" id="" cols="35" rows="6" placeholder="방문 소감을 남겨주세요~" ></textarea> <br>
+        <button type="submit"> 메모 남기기 </button>
+                </form>
+      </section> 
+                
+      </main>
+            
+   <footer>
+
+         <p>조진훈 · 방과후 강사 양성 과정 · 2026년</p>
+         <p><span><small>© 2026 조진훈. All rights reserved.</small></span></p>
+    
+   </footer>
+
 </body>
 </html>
