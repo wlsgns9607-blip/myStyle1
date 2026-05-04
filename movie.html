@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<!-- movie.html 에 css/movie.css 를 외부 연결하세요 -->
+
+ <link rel="stylesheet" href="css/movie.css">
+
+
 </head>
 <body>
-     <article>
+    <article>
       <h1>🎬 아바타 불의길</h1>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4VPWmbe-j4-WvMi3do0eNxMw0FF-hyz8V0w&s" 
-      alt="movie" with="140" >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4VPWmbe-j4-WvMi3do0eNxMw0FF-hyz8V0w&s" 
+        alt="100">
+   
      
           <section>
             <h2> 기본정보</h2>
@@ -22,19 +29,19 @@
           </section>
     </article>
          <hr>
-        <section>
+        <section id="movie2">
           <h2>줄거리</h2>
           <p>판도라 행성에서 살아가던 제이크 설리 가족이
             인간의 <strong>재침략</strong>으로 인해 <em>새로운 부족(바다 부족)</em>으로 
             이동하면서 벌어지는 이야기입니다.</p>
         </section>
           <hr>
-       <section>
+       <section class="movie">
           <h2>나의평점</h2>
-          <p><span>⭐⭐⭐⭐✰</span> 4/5점</p>
+          <p><span>⭐⭐⭐⭐✰ 4/5점 </span></p>
           <a href="https://cgv.co.kr/" target="_blank"> <small>cgv로예매하기 </small>
           </a>
-       </section>
+     
  <h2>✏️ 한줄 리뷰 남기기</h2>
     <form action="">
       <label for=""> 이름 </label><br>
@@ -52,6 +59,7 @@
     </label><br>
      <button type="submit">리뷰등록</button>
     </form>
+      </section>
     <br><br>
 </body>
 </html>
