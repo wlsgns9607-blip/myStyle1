@@ -1,0 +1,63 @@
+/* 동물소개 css */
+
+
+/* 태그 선택자로 body 에 font-family를 
+설정하세요 — 구글 폰트 또는 기본 sans-serif 계열 사용  */
+
+
+
+
+body {
+    font-family: 'Pretendard', sans-serif; 
+    line-height: 1.6; /* px를 빼야 글자가 안 겹칩니다! */
+} 
+
+/* h2 색상 변경 h1 의 color를 원하는 색으로 지정하고, 
+text-align: center를 적용하세요 
+ 페이지 제목이 있는 <h1> 을 감싼 요소에 
+ id="main-title"을 추가하고, id 선택자로 
+ background-color와 padding을 설정하세요
+*/
+
+
+h1 {
+    color: plum; 
+    text-align: center;
+}
+
+
+
+#main {background-color: aquamarine;
+padding: 25px;
+}
+
+
+
+
+
+/* p 에 line-height: 1.8 과 
+font-size: 15px 를 설정하세요 */
+
+
+.get1 {
+    line-height: 1.8; 
+    font-size: 15px;
+}
+
+
+/*  동물 이름이 있는 태그 (예: h2) 에 color와 
+font-weight: 700을 설정하세요 */
+
+
+
+
+span {font-size: 17px;
+color: mediumorchid;}
+
+
+
+h2 { 
+    font-size: 22px; 
+    color: #E13F7C; 
+    font-weight: 700; /* px 삭제 */
+}

@@ -1,0 +1,96 @@
+/* header 영역에 background-color 또는 스트라이프 패턴을 적용하고, padding으로 내부 여백을 충분히 주세요 */
+
+
+header {background-image: linear-gradient(90deg, #5df8d8 25%, #f6d6d6 25%, #f6d6d6 50%, #5df8d8 50%, #5df8d8 75%, #f6d6d6 75%, #f6d6d6 100%);
+background-size: 80.00px 80.00px;
+padding: 30px;
+}
+
+
+
+/* nav 안의 링크들에 text-decoration: none 과 color를 설정해서 메뉴처럼 보이게 하세요*/
+
+
+nav {
+    text-decoration: none;
+    color: lightsalmon;
+    background-image: linear-gradient(45deg, #fff2d0 25%, #fffbf1 25%, #fffbf1 50%, #fff2d0 50%, #fff2d0 75%, #fffbf1 75%, #fffbf1 100%);
+background-size: 56.57px 56.57px; ;
+}
+
+
+
+/* main 안의 section 들에 padding과 margin-bottom을 적용해서 섹션 사이 여백을 만드세요 
+페이지 전체에서 사용하는 주요 색상 3가지를 정하고 일관성 있게 적용하세요
+(예: 포인트색 · 배경색 · 텍스트색)   구글 폰트를 연결해서 body 전체에 적용하고, 제목(h1)에는 본문과 다른 font-weight를 주세요
+*/
+
+
+body {background-color: #8CC7C4; 
+    color: #000;  
+    font-family: "Kirang Haerang", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+h1 {font-weight: bold;}
+
+
+
+
+section {
+    padding: 35px;
+margin-bottom: 45px;
+}
+
+
+/* 작품 목록 ul li 에 border-bottom을 설정해서 리스트 구분선을 만드세요 */
+
+.cho {
+    border-bottom: 3.5px solid #000;
+    padding: 12px 5px;
+}
+
+
+.cho li {border-bottom: 1px solid #2C687B;
+padding: 10px 5px;
+}
+
+
+
+/* button 에 background-color, color, padding, border 를 적용해서 버튼 스타일을 만드세요 */
+
+
+input {border: 1.5px solid #FFC85C;
+padding: 15px;
+}
+
+
+select {border: 2px solid #FFC85C;
+padding: 20px 15px;
+}
+
+
+
+textarea {border: 2px solid #FFC85C;}
+
+
+
+
+/* button 에 background-color, color, padding, border 를 적용해서 버튼 스타일을 만드세요 */
+
+button {background-color: lightcoral;
+color: #fff;
+border: 2px solid #FFC85C;}
+
+
+
+/*  footer 에 background-color, color, text-align: center, padding을 적용하세요 */
+
+footer {background-color: #E6EEC9;
+    color: #E13F7C;   
+    text-align: center 
+    padding: 15px 5px
+}

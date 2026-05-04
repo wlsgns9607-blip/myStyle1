@@ -1,0 +1,27 @@
+/* 나의 독서목록 */
+
+#dong { 
+    font-style: italic; 
+    text-indent: 20px; 
+}
+
+#dong2 {
+    letter-spacing: 1px;
+}
+
+#line {
+    /* N8oto -> Noto 수정 / 1. -> 1.5 수정 / 비어있던 variant 삭제 */
+    font: bold 16px/1.5 'Noto Sans KR', sans-serif;
+    letter-spacing: 2px;
+}
+
+#line1 {
+    font-style: inherit;
+    letter-spacing: 2px; 
+    font-weight: 100; /* px 삭제 */
+} 
+
+.book1 {
+    /* 읽은 책 표시인가요? 아주 적절한 속성입니다! */
+    text-decoration: line-through;
+}

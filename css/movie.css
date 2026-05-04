@@ -1,0 +1,79 @@
+/* 영화 css 설정*/
+
+
+/* body 에 background-color 를 설정해 페이지 전체 배경색을 
+지정하세요 (흰색 제외) */
+
+
+body {background-color: #56B6C6;}
+
+
+/* 영화 제목이 담긴 영역에 background-color와 
+color를 설정해 눈에 띄게 꾸미세요 */
+
+
+article {
+    background-color: #AAFFC7;
+    color: #FF4081;
+}
+
+
+/*   페이지 어느 한 영역(예: 제목 배경, 리뷰 카드)에 수평 스트라이프 패턴을 적용하세요
+background-image: linear-gradient(...) + background-size 사용 */
+
+
+
+#movie2 { 
+background-size: cover 
+background-position: center
+  background-image: linear-gradient(45deg, #b0fffa 25%, #ff7db0 25%, #ff7db0 50%, #b0fffa 50%, #b0fffa 75%, #ff7db0 75%, #ff7db0 100%);
+background-size: 56.57px 56.57px;
+}
+
+
+/*  영화 포스터 이미지가 있다면 background-size: cover 와 background-position: center 를 활용해서 배경 이미지로 넣어보세요  */
+
+
+
+img {
+    width: 300px;
+    background-color: #E8F5BD;
+    padding: 10px;
+}
+
+
+
+/* 페이지 어느 한 영역(예: 제목 배경, 리뷰 카드)에 수평 스트라이프 패턴을 적용하세요
+background-image: linear-gradient(...) + background-size 사용*/
+
+.movie { 
+    /* 1. 밑바탕이 될 배경색 (이 색이 줄 사이로 보입니다) */
+    background-color: #fff; 
+    
+    /* 2. 특정 구간을 transparent(투명)로 설정 */
+    background-image: linear-gradient(
+        90deg, 
+        #f7dd7d 25%, 
+        transparent 25%,   /* 여기서부터 투명 (배경색 흰색 보임) */
+        transparent 50%, 
+        #a2cb8b 50%,       /* 여기서부터 초록색 */
+        #a2cb8b 75%, 
+        transparent 75%,   /* 다시 투명 */
+        transparent 100%
+    );
+    
+    background-size: 80.00px 80.00px;
+}
+
+
+/*  별점이나 장르 태그 등 작은 요소에 
+background-color와 color를 조합해서 배지(badge) 스타일을 만드세요 */
+
+
+
+/* 수평 스트라이프 외에 사선 스트라이프(45deg)도 한 곳에 
+추가로 적용하세요 */
+
+
+span {background-color:#fff;
+     color: #C44545}
